@@ -1,0 +1,38 @@
+running egg_info
+creating ../../build/pid_tuner/pid_tuner.egg-info
+writing ../../build/pid_tuner/pid_tuner.egg-info/PKG-INFO
+writing dependency_links to ../../build/pid_tuner/pid_tuner.egg-info/dependency_links.txt
+writing entry points to ../../build/pid_tuner/pid_tuner.egg-info/entry_points.txt
+writing requirements to ../../build/pid_tuner/pid_tuner.egg-info/requires.txt
+writing top-level names to ../../build/pid_tuner/pid_tuner.egg-info/top_level.txt
+writing manifest file '../../build/pid_tuner/pid_tuner.egg-info/SOURCES.txt'
+reading manifest file '../../build/pid_tuner/pid_tuner.egg-info/SOURCES.txt'
+writing manifest file '../../build/pid_tuner/pid_tuner.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/arthurficial-intelligence/arthur_mecanum_ws/build/pid_tuner/build
+creating /home/arthurficial-intelligence/arthur_mecanum_ws/build/pid_tuner/build/lib
+creating /home/arthurficial-intelligence/arthur_mecanum_ws/build/pid_tuner/build/lib/pid_tuner
+copying pid_tuner/tuner_keyboard.py -> /home/arthurficial-intelligence/arthur_mecanum_ws/build/pid_tuner/build/lib/pid_tuner
+copying pid_tuner/__init__.py -> /home/arthurficial-intelligence/arthur_mecanum_ws/build/pid_tuner/build/lib/pid_tuner
+copying pid_tuner/tuner_node.py -> /home/arthurficial-intelligence/arthur_mecanum_ws/build/pid_tuner/build/lib/pid_tuner
+running install
+running install_lib
+creating /home/arthurficial-intelligence/arthur_mecanum_ws/install/pid_tuner/lib/python3.12/site-packages/pid_tuner
+copying /home/arthurficial-intelligence/arthur_mecanum_ws/build/pid_tuner/build/lib/pid_tuner/tuner_keyboard.py -> /home/arthurficial-intelligence/arthur_mecanum_ws/install/pid_tuner/lib/python3.12/site-packages/pid_tuner
+copying /home/arthurficial-intelligence/arthur_mecanum_ws/build/pid_tuner/build/lib/pid_tuner/__init__.py -> /home/arthurficial-intelligence/arthur_mecanum_ws/install/pid_tuner/lib/python3.12/site-packages/pid_tuner
+copying /home/arthurficial-intelligence/arthur_mecanum_ws/build/pid_tuner/build/lib/pid_tuner/tuner_node.py -> /home/arthurficial-intelligence/arthur_mecanum_ws/install/pid_tuner/lib/python3.12/site-packages/pid_tuner
+byte-compiling /home/arthurficial-intelligence/arthur_mecanum_ws/install/pid_tuner/lib/python3.12/site-packages/pid_tuner/tuner_keyboard.py to tuner_keyboard.cpython-312.pyc
+byte-compiling /home/arthurficial-intelligence/arthur_mecanum_ws/install/pid_tuner/lib/python3.12/site-packages/pid_tuner/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/arthurficial-intelligence/arthur_mecanum_ws/install/pid_tuner/lib/python3.12/site-packages/pid_tuner/tuner_node.py to tuner_node.cpython-312.pyc
+running install_data
+creating /home/arthurficial-intelligence/arthur_mecanum_ws/install/pid_tuner/share/ament_index
+creating /home/arthurficial-intelligence/arthur_mecanum_ws/install/pid_tuner/share/ament_index/resource_index
+creating /home/arthurficial-intelligence/arthur_mecanum_ws/install/pid_tuner/share/ament_index/resource_index/packages
+copying resource/pid_tuner -> /home/arthurficial-intelligence/arthur_mecanum_ws/install/pid_tuner/share/ament_index/resource_index/packages
+copying package.xml -> /home/arthurficial-intelligence/arthur_mecanum_ws/install/pid_tuner/share/pid_tuner
+running install_egg_info
+Copying ../../build/pid_tuner/pid_tuner.egg-info to /home/arthurficial-intelligence/arthur_mecanum_ws/install/pid_tuner/lib/python3.12/site-packages/pid_tuner-1.0.0-py3.12.egg-info
+running install_scripts
+Installing tune script to /home/arthurficial-intelligence/arthur_mecanum_ws/install/pid_tuner/lib/pid_tuner
+writing list of installed files to '/home/arthurficial-intelligence/arthur_mecanum_ws/build/pid_tuner/install.log'

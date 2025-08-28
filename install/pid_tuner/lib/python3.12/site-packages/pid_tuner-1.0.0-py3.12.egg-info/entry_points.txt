@@ -1,0 +1,3 @@
+[console_scripts]
+tune = pid_tuner.tuner_node:main
+tune_kb = pid_tuner.tuner_keyboard:main

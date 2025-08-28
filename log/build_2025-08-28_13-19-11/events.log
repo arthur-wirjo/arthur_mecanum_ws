@@ -1,0 +1,70 @@
+[0.000000] (-) TimerEvent: {}
+[0.000424] (pid_tuner) JobQueued: {'identifier': 'pid_tuner', 'dependencies': OrderedDict()}
+[0.000736] (pid_tuner) JobStarted: {'identifier': 'pid_tuner'}
+[0.099708] (-) TimerEvent: {}
+[0.200180] (-) TimerEvent: {}
+[0.300549] (-) TimerEvent: {}
+[0.400857] (-) TimerEvent: {}
+[0.501174] (-) TimerEvent: {}
+[0.601503] (-) TimerEvent: {}
+[0.701806] (-) TimerEvent: {}
+[0.802093] (-) TimerEvent: {}
+[0.902418] (-) TimerEvent: {}
+[1.002733] (-) TimerEvent: {}
+[1.103033] (-) TimerEvent: {}
+[1.203343] (-) TimerEvent: {}
+[1.303644] (-) TimerEvent: {}
+[1.403946] (-) TimerEvent: {}
+[1.504231] (-) TimerEvent: {}
+[1.604532] (-) TimerEvent: {}
+[1.704846] (-) TimerEvent: {}
+[1.745462] (pid_tuner) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/pid_tuner', 'build', '--build-base', '/home/arthurficial-intelligence/arthur_mecanum_ws/build/pid_tuner/build', 'install', '--record', '/home/arthurficial-intelligence/arthur_mecanum_ws/build/pid_tuner/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/arthurficial-intelligence/arthur_mecanum_ws/src/pid_tuner', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mecanum_pi', 'SSH_CLIENT': '100.106.64.51 43320 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/local/lib/aarch64-linux-gnu:/usr/local/lib/aarch64-linux-gnu:/usr/local/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/arthurficial-intelligence', 'OLDPWD': '/home/arthurficial-intelligence', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'mecanum_pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '7', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/arthurficial-intelligence/.platformio/penv/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'LD_PRELOAD': '/usr/local/lib/aarch64-linux-gnu/libcamera.so:/usr/local/lib/aarch64-linux-gnu/libcamera-base.so:/usr/local/lib/aarch64-linux-gnu/libpisp.so', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/arthurficial-intelligence/arthur_mecanum_ws/build/pid_tuner', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '100.106.64.51 43320 100.65.55.77 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/arthurficial-intelligence/arthur_mecanum_ws/build/pid_tuner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arthurficial-intelligence/arthur_mecanum_ws/install/pid_tuner/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[1.804952] (-) TimerEvent: {}
+[1.905257] (-) TimerEvent: {}
+[2.005548] (-) TimerEvent: {}
+[2.105822] (-) TimerEvent: {}
+[2.115092] (pid_tuner) StdoutLine: {'line': b'running egg_info\n'}
+[2.115587] (pid_tuner) StdoutLine: {'line': b'creating ../../build/pid_tuner/pid_tuner.egg-info\n'}
+[2.140486] (pid_tuner) StdoutLine: {'line': b'writing ../../build/pid_tuner/pid_tuner.egg-info/PKG-INFO\n'}
+[2.141714] (pid_tuner) StdoutLine: {'line': b'writing dependency_links to ../../build/pid_tuner/pid_tuner.egg-info/dependency_links.txt\n'}
+[2.141920] (pid_tuner) StdoutLine: {'line': b'writing entry points to ../../build/pid_tuner/pid_tuner.egg-info/entry_points.txt\n'}
+[2.144353] (pid_tuner) StdoutLine: {'line': b'writing requirements to ../../build/pid_tuner/pid_tuner.egg-info/requires.txt\n'}
+[2.144518] (pid_tuner) StdoutLine: {'line': b'writing top-level names to ../../build/pid_tuner/pid_tuner.egg-info/top_level.txt\n'}
+[2.144631] (pid_tuner) StdoutLine: {'line': b"writing manifest file '../../build/pid_tuner/pid_tuner.egg-info/SOURCES.txt'\n"}
+[2.199785] (pid_tuner) StdoutLine: {'line': b"reading manifest file '../../build/pid_tuner/pid_tuner.egg-info/SOURCES.txt'\n"}
+[2.200674] (pid_tuner) StdoutLine: {'line': b"writing manifest file '../../build/pid_tuner/pid_tuner.egg-info/SOURCES.txt'\n"}
+[2.200892] (pid_tuner) StdoutLine: {'line': b'running build\n'}
+[2.201012] (pid_tuner) StdoutLine: {'line': b'running build_py\n'}
+[2.201155] (pid_tuner) StdoutLine: {'line': b'creating /home/arthurficial-intelligence/arthur_mecanum_ws/build/pid_tuner/build\n'}
+[2.201275] (pid_tuner) StdoutLine: {'line': b'creating /home/arthurficial-intelligence/arthur_mecanum_ws/build/pid_tuner/build/lib\n'}
+[2.201395] (pid_tuner) StdoutLine: {'line': b'creating /home/arthurficial-intelligence/arthur_mecanum_ws/build/pid_tuner/build/lib/pid_tuner\n'}
+[2.201504] (pid_tuner) StdoutLine: {'line': b'copying pid_tuner/tuner_keyboard.py -> /home/arthurficial-intelligence/arthur_mecanum_ws/build/pid_tuner/build/lib/pid_tuner\n'}
+[2.202365] (pid_tuner) StdoutLine: {'line': b'copying pid_tuner/__init__.py -> /home/arthurficial-intelligence/arthur_mecanum_ws/build/pid_tuner/build/lib/pid_tuner\n'}
+[2.202506] (pid_tuner) StdoutLine: {'line': b'copying pid_tuner/tuner_node.py -> /home/arthurficial-intelligence/arthur_mecanum_ws/build/pid_tuner/build/lib/pid_tuner\n'}
+[2.203389] (pid_tuner) StdoutLine: {'line': b'running install\n'}
+[2.205882] (-) TimerEvent: {}
+[2.212847] (pid_tuner) StdoutLine: {'line': b'running install_lib\n'}
+[2.238963] (pid_tuner) StdoutLine: {'line': b'creating /home/arthurficial-intelligence/arthur_mecanum_ws/install/pid_tuner/lib/python3.12/site-packages/pid_tuner\n'}
+[2.239206] (pid_tuner) StdoutLine: {'line': b'copying /home/arthurficial-intelligence/arthur_mecanum_ws/build/pid_tuner/build/lib/pid_tuner/tuner_keyboard.py -> /home/arthurficial-intelligence/arthur_mecanum_ws/install/pid_tuner/lib/python3.12/site-packages/pid_tuner\n'}
+[2.239396] (pid_tuner) StdoutLine: {'line': b'copying /home/arthurficial-intelligence/arthur_mecanum_ws/build/pid_tuner/build/lib/pid_tuner/__init__.py -> /home/arthurficial-intelligence/arthur_mecanum_ws/install/pid_tuner/lib/python3.12/site-packages/pid_tuner\n'}
+[2.239524] (pid_tuner) StdoutLine: {'line': b'copying /home/arthurficial-intelligence/arthur_mecanum_ws/build/pid_tuner/build/lib/pid_tuner/tuner_node.py -> /home/arthurficial-intelligence/arthur_mecanum_ws/install/pid_tuner/lib/python3.12/site-packages/pid_tuner\n'}
+[2.240186] (pid_tuner) StdoutLine: {'line': b'byte-compiling /home/arthurficial-intelligence/arthur_mecanum_ws/install/pid_tuner/lib/python3.12/site-packages/pid_tuner/tuner_keyboard.py to tuner_keyboard.cpython-312.pyc\n'}
+[2.242590] (pid_tuner) StdoutLine: {'line': b'byte-compiling /home/arthurficial-intelligence/arthur_mecanum_ws/install/pid_tuner/lib/python3.12/site-packages/pid_tuner/__init__.py to __init__.cpython-312.pyc\n'}
+[2.242845] (pid_tuner) StdoutLine: {'line': b'byte-compiling /home/arthurficial-intelligence/arthur_mecanum_ws/install/pid_tuner/lib/python3.12/site-packages/pid_tuner/tuner_node.py to tuner_node.cpython-312.pyc\n'}
+[2.243539] (pid_tuner) StdoutLine: {'line': b'running install_data\n'}
+[2.243671] (pid_tuner) StdoutLine: {'line': b'creating /home/arthurficial-intelligence/arthur_mecanum_ws/install/pid_tuner/share/ament_index\n'}
+[2.243778] (pid_tuner) StdoutLine: {'line': b'creating /home/arthurficial-intelligence/arthur_mecanum_ws/install/pid_tuner/share/ament_index/resource_index\n'}
+[2.243885] (pid_tuner) StdoutLine: {'line': b'creating /home/arthurficial-intelligence/arthur_mecanum_ws/install/pid_tuner/share/ament_index/resource_index/packages\n'}
+[2.243989] (pid_tuner) StdoutLine: {'line': b'copying resource/pid_tuner -> /home/arthurficial-intelligence/arthur_mecanum_ws/install/pid_tuner/share/ament_index/resource_index/packages\n'}
+[2.244125] (pid_tuner) StdoutLine: {'line': b'copying package.xml -> /home/arthurficial-intelligence/arthur_mecanum_ws/install/pid_tuner/share/pid_tuner\n'}
+[2.244261] (pid_tuner) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.271586] (pid_tuner) StdoutLine: {'line': b'Copying ../../build/pid_tuner/pid_tuner.egg-info to /home/arthurficial-intelligence/arthur_mecanum_ws/install/pid_tuner/lib/python3.12/site-packages/pid_tuner-1.0.0-py3.12.egg-info\n'}
+[2.272781] (pid_tuner) StdoutLine: {'line': b'running install_scripts\n'}
+[2.305985] (-) TimerEvent: {}
+[2.406310] (-) TimerEvent: {}
+[2.451406] (pid_tuner) StdoutLine: {'line': b'Installing tune script to /home/arthurficial-intelligence/arthur_mecanum_ws/install/pid_tuner/lib/pid_tuner\n'}
+[2.451909] (pid_tuner) StdoutLine: {'line': b"writing list of installed files to '/home/arthurficial-intelligence/arthur_mecanum_ws/build/pid_tuner/install.log'\n"}
+[2.506412] (-) TimerEvent: {}
+[2.529165] (pid_tuner) CommandEnded: {'returncode': 0}
+[2.552886] (pid_tuner) JobEnded: {'identifier': 'pid_tuner', 'rc': 0}
+[2.555182] (-) EventReactorShutdown: {}

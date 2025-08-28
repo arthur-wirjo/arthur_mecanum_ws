@@ -1,0 +1,40 @@
+[1.748s] Invoking command in '/home/arthurficial-intelligence/arthur_mecanum_ws/src/pid_tuner': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arthurficial-intelligence/arthur_mecanum_ws/build/pid_tuner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arthurficial-intelligence/arthur_mecanum_ws/install/pid_tuner/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pid_tuner build --build-base /home/arthurficial-intelligence/arthur_mecanum_ws/build/pid_tuner/build install --record /home/arthurficial-intelligence/arthur_mecanum_ws/build/pid_tuner/install.log --single-version-externally-managed install_data
+[2.115s] running egg_info
+[2.115s] creating ../../build/pid_tuner/pid_tuner.egg-info
+[2.140s] writing ../../build/pid_tuner/pid_tuner.egg-info/PKG-INFO
+[2.141s] writing dependency_links to ../../build/pid_tuner/pid_tuner.egg-info/dependency_links.txt
+[2.141s] writing entry points to ../../build/pid_tuner/pid_tuner.egg-info/entry_points.txt
+[2.144s] writing requirements to ../../build/pid_tuner/pid_tuner.egg-info/requires.txt
+[2.144s] writing top-level names to ../../build/pid_tuner/pid_tuner.egg-info/top_level.txt
+[2.144s] writing manifest file '../../build/pid_tuner/pid_tuner.egg-info/SOURCES.txt'
+[2.199s] reading manifest file '../../build/pid_tuner/pid_tuner.egg-info/SOURCES.txt'
+[2.200s] writing manifest file '../../build/pid_tuner/pid_tuner.egg-info/SOURCES.txt'
+[2.200s] running build
+[2.200s] running build_py
+[2.200s] creating /home/arthurficial-intelligence/arthur_mecanum_ws/build/pid_tuner/build
+[2.201s] creating /home/arthurficial-intelligence/arthur_mecanum_ws/build/pid_tuner/build/lib
+[2.201s] creating /home/arthurficial-intelligence/arthur_mecanum_ws/build/pid_tuner/build/lib/pid_tuner
+[2.201s] copying pid_tuner/tuner_keyboard.py -> /home/arthurficial-intelligence/arthur_mecanum_ws/build/pid_tuner/build/lib/pid_tuner
+[2.202s] copying pid_tuner/__init__.py -> /home/arthurficial-intelligence/arthur_mecanum_ws/build/pid_tuner/build/lib/pid_tuner
+[2.202s] copying pid_tuner/tuner_node.py -> /home/arthurficial-intelligence/arthur_mecanum_ws/build/pid_tuner/build/lib/pid_tuner
+[2.203s] running install
+[2.212s] running install_lib
+[2.238s] creating /home/arthurficial-intelligence/arthur_mecanum_ws/install/pid_tuner/lib/python3.12/site-packages/pid_tuner
+[2.239s] copying /home/arthurficial-intelligence/arthur_mecanum_ws/build/pid_tuner/build/lib/pid_tuner/tuner_keyboard.py -> /home/arthurficial-intelligence/arthur_mecanum_ws/install/pid_tuner/lib/python3.12/site-packages/pid_tuner
+[2.239s] copying /home/arthurficial-intelligence/arthur_mecanum_ws/build/pid_tuner/build/lib/pid_tuner/__init__.py -> /home/arthurficial-intelligence/arthur_mecanum_ws/install/pid_tuner/lib/python3.12/site-packages/pid_tuner
+[2.239s] copying /home/arthurficial-intelligence/arthur_mecanum_ws/build/pid_tuner/build/lib/pid_tuner/tuner_node.py -> /home/arthurficial-intelligence/arthur_mecanum_ws/install/pid_tuner/lib/python3.12/site-packages/pid_tuner
+[2.240s] byte-compiling /home/arthurficial-intelligence/arthur_mecanum_ws/install/pid_tuner/lib/python3.12/site-packages/pid_tuner/tuner_keyboard.py to tuner_keyboard.cpython-312.pyc
+[2.242s] byte-compiling /home/arthurficial-intelligence/arthur_mecanum_ws/install/pid_tuner/lib/python3.12/site-packages/pid_tuner/__init__.py to __init__.cpython-312.pyc
+[2.242s] byte-compiling /home/arthurficial-intelligence/arthur_mecanum_ws/install/pid_tuner/lib/python3.12/site-packages/pid_tuner/tuner_node.py to tuner_node.cpython-312.pyc
+[2.243s] running install_data
+[2.243s] creating /home/arthurficial-intelligence/arthur_mecanum_ws/install/pid_tuner/share/ament_index
+[2.243s] creating /home/arthurficial-intelligence/arthur_mecanum_ws/install/pid_tuner/share/ament_index/resource_index
+[2.243s] creating /home/arthurficial-intelligence/arthur_mecanum_ws/install/pid_tuner/share/ament_index/resource_index/packages
+[2.243s] copying resource/pid_tuner -> /home/arthurficial-intelligence/arthur_mecanum_ws/install/pid_tuner/share/ament_index/resource_index/packages
+[2.243s] copying package.xml -> /home/arthurficial-intelligence/arthur_mecanum_ws/install/pid_tuner/share/pid_tuner
+[2.244s] running install_egg_info
+[2.271s] Copying ../../build/pid_tuner/pid_tuner.egg-info to /home/arthurficial-intelligence/arthur_mecanum_ws/install/pid_tuner/lib/python3.12/site-packages/pid_tuner-1.0.0-py3.12.egg-info
+[2.272s] running install_scripts
+[2.451s] Installing tune script to /home/arthurficial-intelligence/arthur_mecanum_ws/install/pid_tuner/lib/pid_tuner
+[2.451s] writing list of installed files to '/home/arthurficial-intelligence/arthur_mecanum_ws/build/pid_tuner/install.log'
+[2.529s] Invoked command in '/home/arthurficial-intelligence/arthur_mecanum_ws/src/pid_tuner' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arthurficial-intelligence/arthur_mecanum_ws/build/pid_tuner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arthurficial-intelligence/arthur_mecanum_ws/install/pid_tuner/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pid_tuner build --build-base /home/arthurficial-intelligence/arthur_mecanum_ws/build/pid_tuner/build install --record /home/arthurficial-intelligence/arthur_mecanum_ws/build/pid_tuner/install.log --single-version-externally-managed install_data

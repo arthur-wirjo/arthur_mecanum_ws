@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: pid-tuner
+Version: 1.0.0
+Summary: A simple tool to send timed Twist commands for PID tuning.
+Maintainer: ros
+Maintainer-email: ros@ros.com
+License: Apache-2.0
